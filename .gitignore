@@ -54,3 +54,38 @@ test/tracetesting/tracetesting-vars.yaml
 *.apk
 
 !src/currency/build
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Lock file (can be regenerated)
+.terraform.lock.hcl
+
+# Ignore provider binaries
+terraform-provider-*
+
+# Sensitive JSON outputs
+*.tfvars
+*.tfvars.json
+
+# Local override files (used for development/testing)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# VSCode and IDE specific
+.vscode/
+.idea/
